@@ -19,5 +19,15 @@ module.exports = {
   ],
   rules: {
     'react/jsx-filename-extension': 'off',
+    'arrow-body-style': 'off',
+    'indent': 'off',
+    'quote-props': 'off',
+    'react/jsx-indent': 'off',
+    'semi': 'off',
+    'import/no-unresolved': 'off',
+    'react/prop-types': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react/jsx-indent-props': 'off',
   },
 };

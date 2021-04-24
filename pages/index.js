@@ -1,7 +1,7 @@
 import React from 'react';
 
 const index = () => (
-  <div>
+  <div className="Main">
     <h1>Probando next para portafolio</h1>
   </div>
 );

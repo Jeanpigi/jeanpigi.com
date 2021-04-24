@@ -1,0 +1,14 @@
+.Nav {
+    background-color: #24292e;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Nav_item > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+

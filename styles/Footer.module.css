@@ -1,0 +1,12 @@
+.Footer {
+    background-color: #24292e;
+    color: #ffffff;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.Footer_content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
