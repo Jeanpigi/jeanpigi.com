@@ -1,0 +1,26 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jean Pierre <stick-master666@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspecr' next dev",
+    "start": "next start",
+    "build": "next build",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "dependencies": {
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
