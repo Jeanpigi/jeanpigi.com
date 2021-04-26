@@ -10,3 +10,21 @@
     justify-content: center;
     align-items: center;
 }
+
+.Footer_social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.Footer_social  a {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1023px) {
+    .Footer_social a {
+        font-size: 3rem;
+    }
+}

@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <nav className={styles.Nav}>
             <Link href="/">
-                <picture className="logo">
+                <picture className={styles.Logo}>
                     <Image src="/logo.svg" alt="logo" width={50} height={50} />
                 </picture>
             </Link>

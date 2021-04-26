@@ -1,0 +1,38 @@
+.Intro {
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 1.5rem;
+    margin: 2rem;
+}
+
+.Intro p {
+    color: #555;
+    background-color: #f0f0f0;
+    padding: .6rem;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+.Intro_picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.Intro_picture  img {
+    border-radius: 150px;
+    border:10px solid #24292e;
+}
+
+@media screen and (min-width: 1023px) {
+    .Intro h1 {
+        font-size: 4rem;
+        font-weight: 200;
+    }
+
+    .Intro p {
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+}

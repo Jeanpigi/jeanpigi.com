@@ -1,0 +1,48 @@
+.About {
+    display: grid;
+    margin: 1rem 0;
+    justify-content: center;
+    background-color: #24292e;
+    color: #ffffff;
+    padding: 4rem;
+}
+
+.About h2 {
+    text-align: center;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.About h2, .About  p, .About ul, .About span {
+    font-size: 1.6rem;
+}
+
+.About p {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.About ul {
+    font-weight: 200;
+}
+
+.About span {
+    text-align: justify;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 1023px) {
+    .About {
+        padding: 2rem 7rem;
+    }
+
+    .About h2 {
+        font-size: 3rem;
+    }
+
+    .About p, .About ul, .About span {
+        font-size: 2rem;
+    }
+
+}

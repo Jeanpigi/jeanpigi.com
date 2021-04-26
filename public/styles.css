@@ -12,20 +12,18 @@ html {
 }
 
 h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
-h2 {
-    font-size: 1rem;
-}
 
 .Error {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    grid-gap: 3rem;
     margin-top:  1rem;
+    height: 73vh;
 }
 
 .Error404-image {
@@ -47,9 +45,6 @@ h2 {
     }
 }
 
-.Main {
-    height: 100vh;
-}
 
 /* Media Queries */
 @media screen and (min-width: 1023px) {
@@ -60,4 +55,9 @@ h2 {
     h2 {
         font-size: 1.4rem;
     }
+
+    .Error {
+        height: 77vh;
+    }
+
 }

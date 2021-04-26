@@ -29,5 +29,10 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'react/jsx-indent-props': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'max-len': 'off',
+    'import/prefer-default-export': 'off',
+    'object-curly-newline': 'off',
+    'array-callback-return': 'off',
   },
 };

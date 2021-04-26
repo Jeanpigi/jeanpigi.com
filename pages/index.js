@@ -1,9 +1,15 @@
 import React from 'react';
+// Components
+import Intro from '@components/Intro';
+import About from '@components/About';
+import Experiences from '@components/Experiences.js';
 
 const index = () => (
-  <div className="Main">
-    <h1>Probando next para portafolio</h1>
-  </div>
+  <>
+    <Intro />
+    <About />
+    <Experiences />
+  </>
 );
 
 export default index;

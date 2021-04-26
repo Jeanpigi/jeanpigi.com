@@ -1,0 +1,68 @@
+.Experiences {
+    margin:1rem 2rem 4rem;
+}
+
+.Experiences h1 {
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.Experiences li {
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 15px rgba(39, 44, 49, 0.06),
+    -10px 10px 15px rgba(39, 44, 49, 0.03);
+    border-radius: 20px;
+    list-style: none;
+}
+
+.Experiences h2, .Experiences h3 {
+    text-align: center;
+}
+
+.Experiences h2 {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+
+.Experiences h3 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding:0 0 1rem 0;
+}
+
+.Experiences p {
+    text-align: justify;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.Experiences h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 1rem 0 0 0;
+}
+
+@media screen and (min-width: 1023px) {
+    .Experiences h1 {
+        font-size: 3rem;
+    }
+
+    .Experiences li {
+        margin: 7rem;
+    }
+
+    .Experiences h2 {
+        font-size: 2rem;
+    }
+
+    .Experiences h3 {
+        font-size: 1.6rem;
+    }
+
+    .Experiences p {
+        font-size: 1.8rem;
+    }
+}
