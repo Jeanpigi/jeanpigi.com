@@ -34,5 +34,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'object-curly-newline': 'off',
     'array-callback-return': 'off',
+    'react/no-array-index-key': 'off',
   },
 };

@@ -3,12 +3,14 @@ import React from 'react';
 import Intro from '@components/Intro';
 import About from '@components/About';
 import Experiences from '@components/Experiences.js';
+import Education from '@components/Education.js';
 
 const index = () => (
   <>
     <Intro />
     <About />
     <Experiences />
+    <Education />
   </>
 );
 
