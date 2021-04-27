@@ -1,9 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 
 // pages/404.js
 export default function Custom404() {
     return (
+        <>
+        <Head>
+            <title>Error</title>
+        </Head>
         <div className="Error">
             <div className="Error-title">
                 <h1>404 - No se encuentra esta página</h1>
@@ -19,5 +24,6 @@ export default function Custom404() {
                 </figure>
             </div>
         </div>
+        </>
     );
 }

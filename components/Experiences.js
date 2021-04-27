@@ -9,8 +9,8 @@ const Experiences = () => {
         <div className={styles.Experiences}>
             <h1>Experiencia:</h1>
             <ul>
-                {experiences.map(({ title, place, description, from, to }) => (
-                    <li>
+                {experiences.map(({ title, place, description, from, to }, i) => (
+                    <li key={i}>
                         <h2>{title}</h2>
                         <h3>{place}</h3>
                         <p>{description}</p>

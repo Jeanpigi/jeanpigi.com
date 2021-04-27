@@ -52,11 +52,11 @@
     }
 
     .Education ul {
-        margin: 0 19rem;
-    }
-
-    .Education li {
-        margin: 7rem;
+        margin: 0 auto;
+        display: grid;
+        padding: 1rem;
+        grid-gap: 1rem;
+        grid-template-columns:  1fr 1fr 1fr;
     }
 
     .Education h2 {

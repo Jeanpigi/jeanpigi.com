@@ -50,11 +50,11 @@
     }
 
     .Experiences ul {
-        margin: 0 19rem;
-    }
-
-    .Experiences li {
-        margin: 7rem;
+        display: grid;
+        margin: 0 auto;
+        padding: 1rem;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .Experiences h2 {

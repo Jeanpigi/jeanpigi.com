@@ -42,3 +42,48 @@ export const education = [
         to: 2016,
     },
 ];
+
+export const proyectos = [
+    {
+        title: 'El Gran Novillo',
+        description: 'Proyecto que busca visibilizar la distribuidora Districarnes el Gran Novillo de la ciudad de Florencia Caquetá Colombia',
+        image: 'https://i.ibb.co/xSNWgG6/Novillo.webp',
+        url: 'https://jeanpibot.gitlab.io/novillo/index.html',
+    },
+    {
+        title: 'Deca',
+        description: 'Página web del Doctoradio en Educación y Cultura Ambiental de Florencia Caquetá Colombia implemenando tecnologías web como Html5, Css3 y JavaScript',
+        image: 'https://i.ibb.co/3cMzVqm/Deca.webp',
+        url: 'https://jeanpibot.gitlab.io/Deca/',
+    },
+    {
+        title: 'Derivada',
+        description: 'Creación de un Objeto Virtual de Aprendizaje (OVA). Proyecto que consiste en enseñar los conceptos básicos de la derivada',
+        image: 'https://i.ibb.co/WsprSgd/Derivada.webp',
+        url: 'https://derivada-1xa823ldf.now.sh/Derivada.html',
+    },
+    {
+        title: 'Peso en la Luna',
+        description: 'Sitio web que permite calcular el peso que se tiene en la luna.',
+        image: 'https://i.ibb.co/DQh9K6C/Moon.webp',
+        url: 'https://svelte-weight.vercel.app/',
+    },
+    {
+        title: 'JbearP Blog',
+        description: 'Blog personal creado con el fin de enseñar y compartir los conocimientos básicos de la informatica.',
+        image: 'https://i.ibb.co/7VWXBBd/Jbear-P-001.png',
+        url: 'https://blog.jbearp.com/',
+    },
+    {
+        title: 'Store Online',
+        description: 'Tienda virtual en linea desarrollada en react y firebase.',
+        image: 'https://i.ibb.co/6vwqZrj/Store-Online-001.png',
+        url: 'https://storeonline-225da.web.app/',
+    },
+    {
+        title: 'RickStangram',
+        description: 'Es un simple proyecto que consiste en realizar un clone de instagram con los personajes de la serie animada de Rick and Morty.',
+        image: 'https://i.ibb.co/DQh9K6C/Moon.webp',
+        url: 'https://rickinstagram.vercel.app/',
+    },
+];

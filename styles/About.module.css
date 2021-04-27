@@ -5,12 +5,11 @@
     background-color: #24292e;
     color: #ffffff;
     padding: 4rem;
+    height: 100vh;
 }
 
 .About h2 {
     text-align: center;
-    margin: auto;
-    padding: 1rem 0;
 }
 
 .About h2, .About  p, .About ul, .About span {
