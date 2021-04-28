@@ -4,7 +4,7 @@ import styles from '@styles/NavBar.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const NavBar = () => {
+const Nav = () => {
     return (
         <nav className={styles.Nav}>
             <Link href="/">
@@ -39,4 +39,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar;
+export default Nav;
