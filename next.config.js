@@ -1,8 +1,8 @@
 module.exports = {
     pageExtensions: ['mdx', 'jsx', 'js', 'ts', 'tsx'],
-    compress: false,
+    compress: true,
     api: {
-        bodyParser: false,
+        bodyParser: true,
     },
     images: {
         domains: ['https://i.ibb.co/'],
