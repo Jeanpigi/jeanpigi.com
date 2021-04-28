@@ -83,7 +83,13 @@ export const proyectos = [
     {
         title: 'RickStangram',
         description: 'Es un simple proyecto que consiste en realizar un clone de instagram con los personajes de la serie animada de Rick and Morty.',
-        image: 'https://i.ibb.co/DQh9K6C/Moon.webp',
+        image: 'https://i.ibb.co/vwRRcpQ/rickandmorty.png',
         url: 'https://rickinstagram.vercel.app/',
+    },
+    {
+        title: 'Covid19 API',
+        description: 'Es un un proyecto que muestra el número de casos en cada Pais por el Covid 19.',
+        image: 'https://i.ibb.co/TLDfHPP/covid19.png',
+        url: ' https://covid19-api.vercel.app/',
     },
 ];
