@@ -16,7 +16,7 @@ export const experiences = [
     {
         title: 'Auxiliar de sistemas',
         place: 'Liga Contra el Cáncer',
-        description: 'Consolidar el informe de gestión mensual del convenio y apoyar actividades de aprestamiento logístico para el equipo de ejecución del proyecto.',
+        description: 'Seleccionar y Organizar los expedientes de los pacientes. Digitar la información de los pacientes en el sistema de la entidad.',
         from: 2008,
         to: 2009,
     },
