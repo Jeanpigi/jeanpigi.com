@@ -9,7 +9,7 @@ import { proyectos } from '../profile';
 
 const projects = () => {
     // const myLoader = () => {
-    //     return projects.image;
+    //     return proyectos.image;
     // }
     return (
         <>

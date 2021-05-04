@@ -45,28 +45,16 @@ export const education = [
 
 export const proyectos = [
     {
-        title: 'El Gran Novillo',
-        description: 'Proyecto que busca visibilizar la distribuidora Districarnes el Gran Novillo de la ciudad de Florencia Caquetá Colombia',
-        image: 'https://i.ibb.co/xSNWgG6/Novillo.webp',
-        url: 'https://jeanpibot.gitlab.io/novillo/index.html',
+        title: 'Valery Tienda',
+        description: 'Tienda virtual en linea desarrollada en nextjs y firebase.',
+        image: 'https://i.ibb.co/R0jN0mr/Valery.png',
+        url: 'https://valery-eight.vercel.app/',
     },
     {
-        title: 'Deca',
-        description: 'Página web del Doctoradio en Educación y Cultura Ambiental de Florencia Caquetá Colombia implemenando tecnologías web como Html5, Css3 y JavaScript',
-        image: 'https://i.ibb.co/3cMzVqm/Deca.webp',
-        url: 'https://jeanpibot.gitlab.io/Deca/',
-    },
-    {
-        title: 'Derivada',
-        description: 'Creación de un Objeto Virtual de Aprendizaje (OVA). Proyecto que consiste en enseñar los conceptos básicos de la derivada',
-        image: 'https://i.ibb.co/WsprSgd/Derivada.webp',
-        url: 'https://derivada-1xa823ldf.now.sh/Derivada.html',
-    },
-    {
-        title: 'Peso en la Luna',
-        description: 'Sitio web que permite calcular el peso que se tiene en la luna.',
-        image: 'https://i.ibb.co/DQh9K6C/Moon.webp',
-        url: 'https://svelte-weight.vercel.app/',
+        title: 'Covid19 API',
+        description: 'Es un un proyecto que muestra el número de casos en cada Pais por el Covid 19.',
+        image: 'https://i.ibb.co/TLDfHPP/covid19.png',
+        url: ' https://covid19-api.vercel.app/',
     },
     {
         title: 'JbearP Blog',
@@ -87,9 +75,33 @@ export const proyectos = [
         url: 'https://rickinstagram.vercel.app/',
     },
     {
-        title: 'Covid19 API',
-        description: 'Es un un proyecto que muestra el número de casos en cada Pais por el Covid 19.',
-        image: 'https://i.ibb.co/TLDfHPP/covid19.png',
-        url: ' https://covid19-api.vercel.app/',
+        title: 'Proyecto de Realidad Virtual',
+        description: 'Proyecto sobre el sistema solar para  fortalecer la competencia de investigación de los cuerpos celestes en el área de ciencias sociales dirigido estudiantes del grado séptimo de la institución educativa liceo superior primeras luces de Florencia Caquetá.',
+        image: 'https://i.ibb.co/zb8RkYc/Realidad-Virtual.png',
+        url: 'https://youtu.be/xUFbmIPJC-o',
+    },
+    {
+        title: 'Derivada',
+        description: 'Creación de un Objeto Virtual de Aprendizaje (OVA). Proyecto que consiste en enseñar los conceptos básicos de la derivada',
+        image: 'https://i.ibb.co/WsprSgd/Derivada.webp',
+        url: 'https://derivada-1xa823ldf.now.sh/Derivada.html',
+    },
+    {
+        title: 'Peso en la Luna',
+        description: 'Sitio web que permite calcular el peso que se tiene en la luna.',
+        image: 'https://i.ibb.co/DQh9K6C/Moon.webp',
+        url: 'https://svelte-weight.vercel.app/',
+    },
+    {
+        title: 'Deca',
+        description: 'Página web del Doctoradio en Educación y Cultura Ambiental de Florencia Caquetá Colombia implemenando tecnologías web como Html5, Css3 y JavaScript',
+        image: 'https://i.ibb.co/3cMzVqm/Deca.webp',
+        url: 'https://jeanpibot.gitlab.io/Deca/',
+    },
+    {
+        title: 'El Gran Novillo',
+        description: 'Proyecto que busca visibilizar la distribuidora Districarnes el Gran Novillo de la ciudad de Florencia Caquetá Colombia',
+        image: 'https://i.ibb.co/xSNWgG6/Novillo.webp',
+        url: 'https://jeanpibot.gitlab.io/novillo/index.html',
     },
 ];
