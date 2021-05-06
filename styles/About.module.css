@@ -31,6 +31,11 @@
     padding-top: 1rem;
 }
 
+.About span a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 1023px) {
     .About {
         padding: 2rem 7rem;

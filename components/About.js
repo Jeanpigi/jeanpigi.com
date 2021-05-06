@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 // Styles
 import styles from '@styles/About.module.css';
 
@@ -14,6 +15,11 @@ const About = () => {
                 <li>Sistematizador de Proyectos</li>
                 <li>Auxiliar IT</li>
             </ul>
+            <span> Visita este sitio para observar otros trabajos que he realizado:
+                <Link href="http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000148422">
+                    Cvlac
+                </Link>
+            </span>
             <span>🌱 Actualmente estoy aprendiendo sobre Deno, TypeScript, Python y Go.</span>
             <span>📫 Cómo contactarme: Actualmente, busco nuevas oportunidades que puedan ayudarme a mejorar como persona y profesional. Ya sea que necesites contactarme a través de mi red social.</span>
         </div>
