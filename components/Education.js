@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // styles
 import styles from '@styles/Education.module.css';
-// Profile
-import { education } from '../profile';
 
 const Education = () => {
+    const [education, setEducation] = useState([]);
+
+    useEffect(() => {
+        window.fetch('/api/education').then((response) => response.json()).then(({ data }) => {
+            setEducation(data);
+        })
+    }, [])
+
     return (
         <div className={styles.Education}>
             <h1>Educación:</h1>

@@ -20,11 +20,5 @@
 
 .Footer_social  a {
     color: #ffffff;
-    font-size: 2rem;
-}
-
-@media screen and (min-width: 1023px) {
-    .Footer_social a {
-        font-size: 3rem;
-    }
+    font-size: clamp(2rem, 2.5vw, 3rem);
 }

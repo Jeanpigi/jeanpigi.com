@@ -9,11 +9,12 @@
 }
 
 .About h2 {
-    text-align: center;
+    font-size: clamp(1.6rem, 2.5vw, 3rem);
+     text-align: center;
 }
 
-.About h2, .About  p, .About ul, .About span {
-    font-size: 1.6rem;
+.About  p, .About ul, .About span {
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
 }
 
 .About p {
@@ -39,14 +40,6 @@
 @media screen and (min-width: 1023px) {
     .About {
         padding: 2rem 7rem;
-    }
-
-    .About h2 {
-        font-size: 3rem;
-    }
-
-    .About p, .About ul, .About span {
-        font-size: 2rem;
     }
 
 }

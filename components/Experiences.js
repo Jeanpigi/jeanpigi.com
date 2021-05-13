@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // Styles
 import styles from '@styles/Experiences.module.css';
-// Profile
-import { experiences } from '../profile';
 
 const Experiences = () => {
+    const [experiences, setExperiences] = useState([]);
+
+    useEffect(() => {
+        window.fetch('/api/experiences').then((response) => response.json()).then(({ data }) => {
+            setExperiences(data);
+        })
+    }, [])
+
     return (
         <div className={styles.Experiences}>
             <h1>Experiencia:</h1>

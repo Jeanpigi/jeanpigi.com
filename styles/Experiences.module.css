@@ -21,19 +21,19 @@
 }
 
 .Experiences h2 {
-    font-size: 1.6rem;
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
     padding: 1rem 0;
 }
 
 .Experiences h3 {
-    font-size: 1.4rem;
+    font-size: clamp(1.4rem, 2.5vw, 1.6rem);
     font-weight: 300;
     padding:0 0 1rem 0;
 }
 
 .Experiences p {
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: clamp(1.6rem, 2.5vw, 1.8rem);
     font-weight: 400;
 }
 
@@ -45,9 +45,6 @@
 }
 
 @media screen and (min-width: 1023px) {
-    .Experiences h1 {
-        font-size: 3rem;
-    }
 
     .Experiences ul {
         display: grid;
@@ -57,15 +54,4 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .Experiences h2 {
-        font-size: 2rem;
-    }
-
-    .Experiences h3 {
-        font-size: 1.6rem;
-    }
-
-    .Experiences p {
-        font-size: 1.8rem;
-    }
 }

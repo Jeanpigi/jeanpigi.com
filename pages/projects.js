@@ -5,7 +5,7 @@ import Head from 'next/head';
 // Styles
 import styles from '@styles/Projects.module.css';
 // Store
-import { proyectos } from '../profile';
+import { proyectos } from '@database/profile';
 
 const projects = () => {
     // const myLoader = () => {
