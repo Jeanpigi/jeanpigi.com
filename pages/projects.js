@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 // Styles
@@ -14,9 +14,9 @@ const projects = () => {
         })
     }, []);
 
-    const myLoader = () => {
-        return proyectos.image;
-    }
+    // const myLoader = () => {
+    //     return proyectos.image;
+    // }
 
     return (
         <>
@@ -30,7 +30,7 @@ const projects = () => {
                         <h2> {title} </h2>
                         <span> {description} </span>
                         <picture>
-                            <Image loader={myLoader} src={image} alt={title} width={250} height={150} />
+                            <img src={image} alt={title} width={250} height={150} />
                         </picture>
                         <Link href={url}>
                             <a target="_blank" rel="noopener">
