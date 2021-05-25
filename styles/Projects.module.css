@@ -6,14 +6,10 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+    list-style-type: none;
 }
 
 .Projects li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    gap: 1rem;
     border: .6px solid #24292e;
     border-radius: 6px;
     box-shadow: 10px 10px 15px rgba(39, 44, 49, 0.06),
@@ -26,7 +22,7 @@
     text-align: center;
 }
 
-.Projects span {
+.Projects_link span {
     font-size: clamp(1.4rem, 2.5vw, 1.8rem);
     text-align: justify;
     font-weight: 300;
@@ -42,9 +38,17 @@
 }
 
 .Projects  a {
-    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     text-decoration: none;
-    text-align: center;
+    color: #24292e;
+}
+
+.Projects a:hover {
+    filter: opacity(.5);
 }
 
 @media screen and (min-width: 1023px) {

@@ -1,45 +1,47 @@
 .About {
-    display: grid;
-    margin: 1rem 0;
-    justify-content: center;
-    background-color: #24292e;
-    color: #ffffff;
-    padding: 4rem;
-    height: 100vh;
+  display: grid;
+  margin: 1rem 0;
+  justify-content: center;
+  background-color: #24292e;
+  color: #ffffff;
+  padding: 4rem;
+  height: 100vh;
 }
 
 .About h2 {
-    font-size: clamp(1.6rem, 2.5vw, 3rem);
-     text-align: center;
+  font-size: clamp(1.6rem, 2.5vw, 3rem);
+  text-align: center;
+  font-family: "Mate SC", serif;
 }
 
-.About  p, .About ul, .About span {
-    font-size: clamp(1.6rem, 2.5vw, 2rem);
+.About p,
+.About ul,
+.About span {
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
 }
 
 .About p {
-    text-align: justify;
-    font-weight: 300;
+  text-align: justify;
+  font-weight: 300;
 }
 
 .About ul {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .About span {
-    text-align: justify;
-    font-weight: 300;
-    padding-top: 1rem;
+  text-align: justify;
+  font-weight: 300;
+  padding-top: 1rem;
 }
 
 .About span a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1023px) {
-    .About {
-        padding: 2rem 7rem;
-    }
-
+  .About {
+    padding: 2rem 7rem;
+  }
 }

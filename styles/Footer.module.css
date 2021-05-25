@@ -9,6 +9,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 .Footer_social {

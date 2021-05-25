@@ -20,27 +20,26 @@ const projects = () => {
 
     return (
         <>
-        <Head>
-            <title>Proyectos</title>
-        </Head>
-        <div className={styles.Projects}>
-            <ul>
-                {proyectos.map(({ title, description, image, url }, index) => (
-                    <li key={index}>
-                        <h2> {title} </h2>
-                        <span> {description} </span>
-                        <picture>
-                            <img src={image} alt={title} width={250} height={150} />
-                        </picture>
-                        <Link href={url}>
-                            <a target="_blank" rel="noopener">
-                                enlace al sitio web
-                            </a>
-                        </Link>
-                    </li>
-                ))}
-            </ul>
-        </div>
+            <Head>
+                <title>Proyectos</title>
+            </Head>
+            <div className={styles.Projects}>
+                <ul>
+                    {proyectos.map(({ title, description, image, url }, index) => (
+                        <li key={index}>
+                            <Link href={url}>
+                                <a className={styles.Projects_link} target="_blank" rel="noopener">
+                                    <h2> {title} </h2>
+                                    <span> {description} </span>
+                                    <picture>
+                                        <img src={image} alt={title} width={250} height={150} />
+                                    </picture>
+                                </a>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </>
     )
 };

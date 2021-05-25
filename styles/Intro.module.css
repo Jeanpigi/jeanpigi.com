@@ -1,28 +1,32 @@
 .Intro {
-    display: grid;
-    justify-content: center;
-    grid-row-gap: 1.5rem;
-    margin: 2rem;
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 1.5rem;
+  margin: 2rem;
 }
 
 .Intro p {
-    color: #555;
-    background-color: #f0f0f0;
-    padding: .6rem;
-    text-align: center;
-    border-radius: 5px;
-    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
-    font-weight: 800;
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.6rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  font-weight: 800;
 }
 
 .Intro_picture {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-.Intro_picture  img {
-    border-radius: 150px;
-    border:10px solid #24292e;
+.Intro_picture img {
+  border-radius: 150px;
+  border: 10px solid #24292e;
 }
 
+.Image:hover {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}

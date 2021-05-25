@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Mate SC', serif;
 }
 
 .Nav_item > a {
