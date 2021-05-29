@@ -26,6 +26,10 @@
   border: 10px solid #24292e;
 }
 
+.Image {
+  transition: transform 1.5s;
+}
+
 .Image:hover {
   transform: rotateY(180deg);
   transform-style: preserve-3d;

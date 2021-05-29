@@ -37,6 +37,10 @@
     border-radius: 10px;
 }
 
+.Projects_image:hover  img {
+    transform: scale(1.2);
+}
+
 .Projects  a {
     display: flex;
     flex-direction: column;

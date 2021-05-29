@@ -31,7 +31,7 @@ const projects = () => {
                                 <a className={styles.Projects_link} target="_blank" rel="noopener">
                                     <h2> {title} </h2>
                                     <span> {description} </span>
-                                    <picture>
+                                    <picture className={styles.Projects_image}>
                                         <img src={image} alt={title} width={250} height={150} />
                                     </picture>
                                 </a>
