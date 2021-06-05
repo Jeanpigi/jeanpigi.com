@@ -2,27 +2,58 @@
     padding: 3rem;
 }
 
-.Projects ul {
+.Projects_card_content {
+    --gap: 2rem;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    grid-gap: var(--gap);
     list-style-type: none;
+    background: linear-gradient(
+        hs1(0 0% 0% / 0),
+        hs1(20 0% 0% / 0.3) 20%,
+        hs1(0 0% 0% / 1)
+    );
 }
 
-.Projects li {
-    border: .6px solid #24292e;
-    border-radius: 6px;
+.Projects_card {
+    border-radius: 1rem;
     box-shadow: 10px 10px 15px rgba(39, 44, 49, 0.06),
     -10px 10px 15px rgba(39, 44, 49, 0.03);
-    padding: 1rem;
+    padding: .5rem;
+    max-width: 75ch;
+    overflow: hidden;
+
+    transition: transform 500ms ease;
 }
 
-.Projects h2 {
+.Projects_card:hover {
+    transform: scale(1.05);
+}
+
+.Projects_card_title {
     font-size: clamp(1.6rem, 2.5vw, 2rem);
     text-align: center;
+    position: relative;
 }
 
-.Projects_link span {
+.Projects_card_title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: calc(100% + var(--gap));
+    left: calc(var(--gap) * -1);
+    bottom: 0;
+    background: #24292e;
+    transform: scaleX(0);
+
+    transition:  transform 500ms ease;
+}
+
+.Projects_card:hover .Projects_card_title::after {
+    transform: scaleX(1);
+}
+
+.Projects_card_body {
     font-size: clamp(1.4rem, 2.5vw, 1.8rem);
     text-align: justify;
     font-weight: 300;
@@ -31,32 +62,38 @@
 .Projects picture {
     display: flex;
     justify-content: center;
+    margin: 1rem 0;
 }
 
 .Projects img {
     border-radius: 10px;
 }
 
-.Projects_image:hover  img {
-    transform: scale(1.2);
-}
-
-.Projects  a {
+.Projects_link {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    text-decoration: none;
-    color: #24292e;
+    padding: 1rem 0;
 }
 
-.Projects a:hover {
+.Projects_link_button {
+    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #24292e;
+    padding: 0.5em 1.25em;
+    border-radius: 0.25em;
+}
+
+.Projects_link_button:hover,
+.Projects_link_button:focus {
     filter: opacity(.5);
+    background: rgb(5, 4, 4);
 }
 
 @media screen and (min-width: 1023px) {
-    .Projects ul {
+    .Projects_card_content {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
