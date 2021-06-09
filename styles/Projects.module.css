@@ -3,25 +3,19 @@
 }
 
 .Projects_card_content {
-    --gap: 2rem;
+    --gap: 3rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: var(--gap);
     list-style-type: none;
-    background: linear-gradient(
-        hs1(0 0% 0% / 0),
-        hs1(20 0% 0% / 0.3) 20%,
-        hs1(0 0% 0% / 1)
-    );
 }
 
 .Projects_card {
-    border-radius: 1rem;
-    box-shadow: 10px 10px 15px rgba(39, 44, 49, 0.06),
-    -10px 10px 15px rgba(39, 44, 49, 0.03);
+    border-radius: 4%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
     padding: .5rem;
-    max-width: 75ch;
     overflow: hidden;
+    border: 2px solid black;
 
     transition: transform 500ms ease;
 }
