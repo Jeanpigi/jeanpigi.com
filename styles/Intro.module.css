@@ -5,14 +5,26 @@
   margin: 2rem;
 }
 
-.Intro p {
-  color: #555;
-  background-color: #f0f0f0;
-  padding: 0.6rem;
-  text-align: center;
-  border-radius: 5px;
-  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
-  font-weight: 800;
+.Title {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  /* es 43 por cada caracter o letra*/
+  width: 43ch;
+
+  animation: typing 2s  steps(43),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+  
+}
+
+@keyframes typing {
+  from { width: 0 }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
 }
 
 .Intro_picture {
@@ -33,4 +45,63 @@
 .Image:hover {
   transform: rotateY(180deg);
   transform-style: preserve-3d;
+}
+
+.Content {
+  background-color: #F2F2F2;
+  padding: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.Content p {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  position: absolute;
+  letter-spacing: 2pt;
+}
+
+.Border {
+  color: #F2F2F2;
+  text-shadow: 
+    -1px -1px 0 #764AF1,
+    1px -1px 0 #764AF1,
+    1px 1px 0 #764AF1,
+    -1px 1px 0 #764AF1;
+}
+
+.Wave {
+  color: #9772FB;
+  animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    clip-path: polygon(
+      0% 47%,
+      10% 48%,
+      33% 54%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
 }

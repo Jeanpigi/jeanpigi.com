@@ -19,7 +19,15 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <Link href="https://www.instagram.com/Bitpierre/">
+                    <Link href="https://github.com/Jeanpigi">
+                        <a target="_blank" rel="noopener">
+                            <i aria-hidden className="fab fa-github" />
+                        </a>
+                    </Link>
+                </div>
+
+                <div>
+                    <Link href="https://www.instagram.com/jean_pierre_gio/">
                         <a target="_blank" rel="noopener">
                             <i aria-hidden className="fab fa-instagram" />
                         </a>
@@ -27,7 +35,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <Link href="https://www.facebook.com/Bitpierre">
+                    <Link href="https://www.facebook.com/Jpgaobot/">
                         <a target="_blank" rel="noopener">
                             <i aria-hidden className="fab fa-facebook" />
                         </a>
